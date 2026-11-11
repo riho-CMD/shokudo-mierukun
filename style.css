@@ -1,0 +1,70 @@
+body{
+  font-family:sans-serif;
+  background:#f0f2f5;
+  display:flex;
+  justify-content:center;
+  margin:0;
+  padding:20px;
+}
+
+.phone{
+  width:100%;
+  max-width:420px;
+  background:white;
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+header{
+  background:#198754;
+  color:white;
+  text-align:center;
+  padding:15px;
+}
+
+main{
+  padding:20px;
+  min-height:450px;
+}
+
+.page{
+  display:none;
+}
+
+.page.active{
+  display:block;
+}
+
+.status{
+  text-align:center;
+}
+
+.emoji{
+  font-size:60px;
+}
+
+.seat-map{
+  font-size:32px;
+  text-align:center;
+  line-height:1.5;
+}
+
+.card{
+  background:#f7f7f7;
+  padding:15px;
+  margin-bottom:10px;
+  border-radius:10px;
+}
+
+nav{
+  display:flex;
+}
+
+nav button{
+  flex:1;
+  padding:12px;
+  border:none;
+  background:#198754;
+  color:white;
+}
